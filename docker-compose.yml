@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  jenkinsbuildexample:
-    image: ${DOCKER_REGISTRY-}jenkinsbuildexample
-    build:
-      context: .\JenkinsBuildExample
-      dockerfile: Dockerfile
